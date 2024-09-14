@@ -1,0 +1,78 @@
+
+body, h1, h2, h3, h4, h5, h6, p, pre {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #A7BEAE;
+    
+}
+
+.cotainer {
+    background-color: #E7E8D1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(70, 22, 110, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.cotainer h1 {
+    color: #333;
+}
+
+
+.myclass {
+    background-color:   #D3C5E5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+
+.myclass h2 {
+    color:#0a0a0a;
+    margin-bottom: 10px;
+}
+
+.myclass h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.myclass h4, .myclass h5, .myclass h6 {
+    color: #0a0a0a;
+}
+
+.myclass p {
+    margin: 15px 0;
+    color: #2c3e50;
+}
+
+.myclass pre {
+    background-color: #e8e8e8;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    color: #2c3e50;
+}
+
+
+.myclass hr {
+    margin: 20px 0;
+}
+
+
+sup, sub {
+    font-size: 0.75em;
+}
+
