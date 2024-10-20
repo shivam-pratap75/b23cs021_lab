@@ -1,0 +1,131 @@
+body {
+    background-image: url("https://designshack.net/wp-content/uploads/background-textures.png");
+   background-size: cover;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #f8f1f1;
+    margin-bottom: 20px;
+}
+.d1{
+position: relative;
+align-items: center;
+margin-left: 150px;
+ 
+    
+}
+#d1a{
+    position: relative;
+
+}
+#d1b{
+  margin-top: 50px;
+    position: relative;
+}
+
+#b1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBkUE2iR-XUeoaqxjHIuffe2KAt9SgYuFAA&s");
+    background-size: cover;
+    border-width: 5px;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#b2{ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-6xG1tne5gi5f7OylWZHWY_woNJnjpBguaw&s");
+    background-size: cover;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    border-width: 5px;
+    height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+#b3{
+    background-image: url("https://cache.careers360.mobi/media/article_images/2024/1/20/jee-main-question-paper.jpg");
+    background-size: contain;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    border-width: 5px;
+    height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+#b4{
+    background-image: url("https://i.pinimg.com/736x/d7/d9/97/d7d99775693fa3a2c9c525d63c8a9e91.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    border-width: 5px;
+     height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+#b5{
+    background-image: url("https://i.ytimg.com/vi/iXSSHlOe47s/mqdefault.jpg");
+    background-size: contain;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    border-width: 5px;
+    height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+#b6{
+    background-image: url("https://i.ytimg.com/vi/o_hRhTZORNY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBJ1f_8PfXmSUdECsMvBCOvluujmw");
+    background-size: contain;
+    box-shadow: 5px 5px 10px 10px rgb(233, 132, 132);
+    border-width: 5px;
+    height: 200px;
+    width:300px;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:active {
+    background-color: #004494;
+}
