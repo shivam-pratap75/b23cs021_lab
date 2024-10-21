@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form1.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="shiva">
+        <h2>Registration Form</h2>
+        <form>
+            <div id="name">
+                <label for="first">First Name:</label>
+                <input type="text" id="first" placeholder="Enter your first name.." class="custom-checkbox"><br><br>
+                
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" placeholder="Enter your last name.." class="custom-checkbox"><br><br>
+
+                <label for="email">Email Id:</label>
+                <input type="email" id="email" placeholder="Enter your email.." class="custom-checkbox"><br><br>
+
+                <label for="phone">Phone No.:</label>
+                <input type="tel" id="phone" placeholder="+91XXX...." class="custom-checkbox"><br><br>
+
+                <div class="gen">
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <br>
+            </div>
+
+            <div id="mid">
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" class="custom-checkbox"><br><br>
+
+                <label for="address">Address:</label>
+                <textarea id="address" cols="50" rows="7" placeholder="Address......"></textarea><br><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" class="custom-checkbox" placeholder="Your city..."><br><br>
+
+                <label for="pincode">Pincode:</label>
+                <input type="number" id="pincode" class="custom-checkbox" placeholder="Enter pin.."><br><br>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" class="custom-checkbox" placeholder="State..."><br><br>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" class="custom-checkbox" placeholder="Country"><br><br>
+
+                <div class="gen">
+                    <label>Hobbies:</label><br>
+                    <input type="checkbox" id="dancing"><label for="dancing">Dancing</label>
+                    <input type="checkbox" id="reading"><label for="reading">Reading</label><br>
+                    <input type="checkbox" id="singing"><label for="singing">Singing</label>
+                    <input type="checkbox" id="drawing"><label for="drawing">Drawing</label>
+                </div><br>
+
+                <label for="other">Others:</label>
+                <input type="text" id="other" class="custom-checkbox">
+            </div>
+
+            <div id="end">
+                <label>Qualification:</label><br>
+                <input type="checkbox" id="10th"><label for="10th">Higher School (10th)</label><br>
+                <input type="checkbox" id="12th"><label for="12th">Higher School (12th)</label><br>
+                <input type="checkbox" id="graduation"><label for="graduation">Graduation</label><br>
+                <input type="checkbox" id="postgrad"><label for="postgrad">Post Graduation (Masters)</label><br>
+                <input type="checkbox" id="phd"><label for="phd">PhD</label><br><br>
+
+                <label>Courses applied for:</label><br>
+                <input type="checkbox" id="bca"><label for="bca">BCA (Bachelor of Computer Application)</label><br>
+                <input type="checkbox" id="bcom"><label for="bcom">B.Com (Bachelor of Commerce)</label><br>
+                <input type="checkbox" id="bsc"><label for="bsc">B.Sc (Bachelor of Science)</label><br>
+                <input type="checkbox" id="ba"><label for="ba">B.A (Bachelor of Arts)</label><br>
+                <input type="checkbox" id="mca"><label for="mca">MCA (Master of Computer Application)</label><br>
+                <input type="checkbox" id="mcom"><label for="mcom">M.Com (Master of Commerce)</label><br>
+                <input type="checkbox" id="msc"><label for="msc">M.Sc (Master of Science)</label><br>
+                <input type="checkbox" id="ma"><label for="ma">M.A (Master of Arts)</label><br>
+            </div>
+
+            <button type="submit" id="button1">Submit</button>
+            <button type="reset" id="button2">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
