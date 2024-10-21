@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-blue-background-with-geometric-forms-image_280879.jpg");
-    background-size: contain;
+    background-size: cover;
     font-family: Arial, sans-serif;
     color: #333;
 }
