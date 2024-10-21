@@ -5,17 +5,18 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 50 px;
     text-align: center;
     color: #f8f1f1;
-    margin-bottom: 20px;
+    margin-bottom: 20 px;
 }
 .d1{
-position: relative;
-align-items: center;
-margin-left: 14%;
- 
-    
+ position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    padding: 20px;     
 }
 #d1a{
     position: relative;
